@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Myinfo from './components/Myinfo';
+import Button from './components/Button';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Myinfo />
    {/*<App />*/} 
+   <Button />
   </React.StrictMode>
 );
 
