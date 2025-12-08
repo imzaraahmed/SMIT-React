@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Myinfo from './components/Myinfo';
 import Button from './components/Button';
+import List from './components/List';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,8 @@ root.render(
     <Myinfo />
    {/*<App />*/} 
    <Button />
+   <List />
+   
   </React.StrictMode>
 );
 

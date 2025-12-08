@@ -1,4 +1,4 @@
-.myinfo{
+.myinfo {
     margin: 20px auto;
     background-color: rgb(246, 250, 249);
     width: 50%;
@@ -7,21 +7,48 @@
     text-align: center;
 
 }
-.button{
-   margin: 20px auto;
+
+.button {
+    margin: 20px auto;
     background-color: rgb(246, 250, 249);
     width: 50%;
     padding: 20px;
     border-radius: 20px;
     font-weight: 700;
     font-size: medium;
-  
+
 }
-h1,h2,h3, p {
+
+h1,
+h2,
+h3,
+p {
     text-align: center;
 }
-@media (max-width: 768px) {
-  .myinfo{ width: 90%;
+
+.list {
+    margin: 20px auto;
+    background-color: rgb(246, 250, 249);
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: medium;
+    text-align: center;
+
 }
-   
+ul{
+      display: inline-block;
+ 
+}
+
+
+@media (max-width: 768px) {
+    .myinfo {
+        width: 90%;
+    }
+    .list{
+        width: 90%;
+    } 
+
 }
