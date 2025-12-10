@@ -6,15 +6,26 @@ import reportWebVitals from './reportWebVitals';
 import Myinfo from './components/Myinfo';
 import Button from './components/Button';
 import List from './components/List';
+import Cards from './components/Cards';
+import Container from './components/Container';
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const fruitItems =["Guava","WaterMelon","Peach","Strawberry","Cherry"];
+
 root.render(
   <React.StrictMode>
     <Myinfo />
    {/*<App />*/} 
    <Button />
-   <List />
-   
+   <List fruitItems={fruitItems} />
+   <Container/>
+
+
   </React.StrictMode>
 );
 

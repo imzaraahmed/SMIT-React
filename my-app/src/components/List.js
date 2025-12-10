@@ -1,6 +1,6 @@
 import FruitList from "./FruitList";
 
-function List() {
+function List(props) {
     let fruits = ["Apple", "Banana", "Orange", "Mango", "Grapes"];
 
     return (
@@ -18,7 +18,7 @@ function List() {
                     <li>{fruits[3]}</li>
                     <li>{fruits[4]}</li>
                 </ul>
-                 <FruitList />
+                 <FruitList  />
             </div>
 
        
