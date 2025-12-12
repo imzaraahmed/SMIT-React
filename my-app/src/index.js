@@ -8,6 +8,7 @@ import Button from './components/Button';
 import List from './components/List';
 import Cards from './components/Cards';
 import Container from './components/Container';
+import AssignmentFiveContainer from './components/AssignmentFiveContainer';
 
 
 
@@ -24,6 +25,8 @@ root.render(
    <Button />
    <List fruitItems={fruitItems} />
    <Container/>
+   <AssignmentFiveContainer />
+   
 
 
   </React.StrictMode>
