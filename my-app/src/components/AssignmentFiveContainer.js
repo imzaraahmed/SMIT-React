@@ -2,14 +2,14 @@ import LoginBtn from "./LoginBtn";
 import LogoutBtn from "./LogoutBtn";
 
 function AssignmentFiveContainer(){
-    const condition = true;
+    const isLoggedIn = true;
 return(
 
     <>
     <div className="myinfo">
 
        <h1>Assignment 5 </h1> 
-        {condition ? <LoginBtn /> : <LogoutBtn/>}
+        {isLoggedIn ? <LoginBtn /> : <LogoutBtn/>}
     </div>
     </>
 )
