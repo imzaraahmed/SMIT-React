@@ -9,7 +9,7 @@ import List from './components/List';
 import Cards from './components/Cards';
 import Container from './components/Container';
 import AssignmentFiveContainer from './components/AssignmentFiveContainer';
-
+import AssignmentSix from './components/AssignmentSix';
 
 
 
@@ -26,6 +26,7 @@ root.render(
    <List fruitItems={fruitItems} />
    <Container/>
    <AssignmentFiveContainer />
+   <AssignmentSix />
    
 
 
