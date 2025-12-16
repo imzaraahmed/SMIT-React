@@ -10,6 +10,7 @@ import Cards from './components/Cards';
 import Container from './components/Container';
 import AssignmentFiveContainer from './components/AssignmentFiveContainer';
 import AssignmentSix from './components/AssignmentSix';
+import AssignmentSeven from './components/AssignmentSeven';
 
 
 
@@ -27,6 +28,7 @@ root.render(
    <Container/>
    <AssignmentFiveContainer />
    <AssignmentSix />
+   <AssignmentSeven />
    
 
 
